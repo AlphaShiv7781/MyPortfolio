@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Menu, X, Github, Linkedin, Mail, ExternalLink, ChevronDown, Terminal, Code, Cpu } from 'lucide-react';
 import { SiLeetcode, SiGeeksforgeeks } from "react-icons/si";
 import CV from '../Shivam_Sharma.pdf';
+import myImage from './Me.jpg';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -151,7 +152,7 @@ function App() {
               <div className="absolute -inset-1 bg-gradient-to-r from-[#0fa] to-[#00f2fe] rounded-lg blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
               <div className="relative aspect-square overflow-hidden rounded-lg cyber-border">
                 <img
-                  src="Me.jpg"
+                  src={myImage}
                   alt="Profile"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
