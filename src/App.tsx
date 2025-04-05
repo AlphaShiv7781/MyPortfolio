@@ -46,9 +46,9 @@ function App() {
   ];
 
   const skills = [
-    { category: "Frontend", items: ["React", "TypeScript", "Tailwind CSS", "Next.js"] },
-    { category: "Backend", items: ["Node.js", "Python", "PostgreSQL", "AWS"] },
-    { category: "Tools", items: ["Git", "Docker", "Figma", "Jest"] }
+    { category: "Frontend", items: ["Flutter", "React.js", "Next.js", "TypeScript", "Tailwind CSS" ] },
+    { category: "Backend", items: ["Node.js", "FastAPI", "Django", "Python", "PostgreSQL", "MongoDB"] },
+    { category: "Tools", items: ["Git", "Firebase", "Cloudinary", "Postman", "Figma", "Android Studio", "VsCode"] }
   ];
 
   return (
