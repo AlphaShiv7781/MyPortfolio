@@ -1,40 +1,45 @@
-import { Code, ExternalLink } from "lucide-react"
-
+import { Code, ExternalLink } from "lucide-react";
+import ShlokaSaar from '../../ShlokaSaarLogo.png'
+import InstaScan from '../../instaScanLogo.jpg'
+import BlogFlex from '../../blogflexlogo.png'
+import AgeGender from '../../Age&Gender.png'
+import AutoBot from '../../AutoBotLogo.png'
 const Projects = () => {
 
     const projects = [
         {
           title: "ShlokaSaar",
           description: " An AI-powered Sanskrit shloka interpretation app using Flutter, providing real-time translations and explanations.",
-          image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+          image: ShlokaSaar,
+        
           link: "https://github.com/AlphaShiv7781/ShlokaSaar-Frontend",
           icon: <Code className="w-6 h-6 text-[#0fa]" />
         },
         {
           title: "InstaScan",
           description: " InstaScan, an AI-powered medical imaging application for skin cancer and pneumonia detection using deep learning.",
-          image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&q=80",
+          image: InstaScan,
           link: "https://github.com/AlphaShiv7781/InstaScan",
           icon: <Code className="w-6 h-6 text-[#0fa]" />
         },
         {
           title: "BlogFlex",
           description: "A full-stack blogging platform using Django and PostgreSQL, enabling users to create, edit, and manage blog posts with secure authentication.",
-          image: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=800&q=80",
+          image: BlogFlex,
           link: "https://github.com/AlphaShiv7781/BlogFlex",
           icon: <Code className="w-6 h-6 text-[#0fa]" />
         },
         {
           title: "Age and Gender Detection",
           description: "A machine learning project for detecting Age and Gender using OpenCV and TensorFlow.",
-          image: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=800&q=80",
+          image: AgeGender,
           link: "https://github.com/AlphaShiv7781/Age_Gender_Detection",
           icon: <Code className="w-6 h-6 text-[#0fa]" />
         },
         {
           title: "AutoBot",
           description: "AutoBot, a cutting-edge Flutter application that seamlessly integrates three powerful AI features: an AI Chatbot, a ChatGPT 3.5 mobile clone, and an image generator using ChatGPT API and DALL-E API. Elevate your user experience with intelligent interactions and stunning visuals.",
-          image: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=800&q=80",
+          image: AutoBot,
           link: "https://github.com/AlphaShiv7781/AutoBot",
           icon: <Code className="w-6 h-6 text-[#0fa]" />
         }
