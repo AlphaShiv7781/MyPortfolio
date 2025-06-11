@@ -1,6 +1,6 @@
 import { ChevronDown, Github, Linkedin, Mail } from 'lucide-react'
 import { SiLeetcode, SiGeeksforgeeks } from 'react-icons/si'
-import CV from '../../Shivam_Sharma.pdf';
+import CV from '../../Shivam_Sharma_Resume.pdf';
 const Hero = () => {
   return (
     <div>
